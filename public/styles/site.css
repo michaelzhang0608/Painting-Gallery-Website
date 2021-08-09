@@ -1,0 +1,249 @@
+body {
+  background-image: url('/public/images/body_background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  color: white;
+  margin-top: 100px;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.header {
+  background-color: black;
+  height: 45%;
+  position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+
+}
+
+
+.painting_img {
+  max-width: 500px;
+  max-height: 500px;
+  display: block;
+}
+.painting {
+  margin-top: 400px;
+
+}
+.painting img {
+  display: block;
+  margin: auto;
+
+
+}
+
+.tag_div p {
+  color: white;
+  font-weight: bold;
+  position: relative;
+  right: 123px;
+  bottom: 100px;
+}
+
+.tag_div img {
+  position: relative;
+  right: 170px;
+  height: 150px;
+  width: 150px;
+
+}
+
+.painting div {
+  margin-top: 100px;
+  margin: auto;
+  width: 30%;
+
+}
+
+.info {
+  border: 1px solid black;
+  margin-bottom: 200px;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+}
+.gallery {
+  position: relative;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+h3 {
+  font-family: Garamond, serif;
+}
+li {
+  font-family: Garamond, serif;
+  font-weight: bold;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  margin-right: 60px;
+  margin-bottom: 100px;
+  margin-left: 60px;
+  padding: 40px;
+  border: 2px black;
+  background-color: white;
+  border-style: solid;
+}
+
+.submit_painting {
+  position: relative; left: 300px;height: 100px; width: 150px; font-size: 15px;
+}
+.title a{
+  margin: auto;
+  font-size: 30px;
+}
+
+ul li {
+  list-style: none;
+}
+
+.update_button {
+  position: relative; left: 700px;margin-top: 30px;
+}
+
+nav ul li a:link, nav ul li a:visited {
+  color: white;
+  font-family: serif;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+  text-align: justify;
+}
+.title_link {
+  padding-top: 69px;
+  width: 500px;
+  text-align: center;
+}
+
+
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  flex-grow: 1;
+  font-family: serif;
+  background-color: black;
+  font-size: 1.6em;
+}
+
+nav ul li a {
+  display: block;
+  padding: .5em 1em;
+  margin: .93em;
+}
+
+.feedback {
+  color: #dc341e;
+}
+
+.border {
+  border: 3px white solid;
+}
+
+
+.tags {
+  margin-top: 380px;
+}
+
+select {
+  background-color: black;
+  color: white;
+  width: 400px;
+  height: 50px;
+}
+input {
+  background-color: black;
+  color: white;
+  height: 30px;
+
+}
+.submit_form {
+  display:inline-block;
+  position: fixed;
+border:2px solid black;
+border-radius: 25px;
+padding: 50px;
+  background-color: white;
+}
+form div {
+  padding-bottom: 69px;
+}
+.bar{
+  display: flex;
+  flex-direction: row;
+}
+.username_label {
+  position:absolute;
+   top:45px;
+   right: 640px;
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+label {
+  font-family: Garamond;
+  font-weight: bold;
+}
+.username {
+  position:absolute;
+   top:40px;
+   right: 480px;
+  color: white;
+  border: 1px solid white;}
+
+.password_label {
+    position:absolute;
+     top:45px;
+     right: 340px;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .big_painting {
+    width: 60%;
+     height:"auto";
+  }
+.password {
+    position:absolute;
+     top:40px;
+     right: 180px;
+    color: white;
+    border: 1px solid white;
+}
+.login_submit {
+  position: absolute;
+    top: 30px;
+    right: 50px;
+  height: 50px;
+  width: 100px;
+  font-size: 15px;
+}
+
+ul li {
+  color: black;
+}
+li {
+  color: white;
+}
+.hidden {
+  display: none;
+}
